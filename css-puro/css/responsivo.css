@@ -1,0 +1,109 @@
+@media (max-width: 739px){
+  .menu-nav{
+    float: none;
+    clear: both;
+  }
+
+  a.menu-logo{
+    float: none;
+    margin: 0 auto;
+  }
+
+  .menu{
+    text-align: center;
+  }
+
+  .intro{
+    padding: 60px 0;
+  }
+
+  .sobre-item{
+    width: 360px;
+    margin: 0 auto;
+  }
+
+  .sobre-container{
+    max-width: 360px;
+  }
+
+  .produtos-container{
+    max-width: 360px;
+  }
+
+  .produtos-item{
+    width: 360px;
+    margin: 20px auto;
+  }
+
+  .locais{
+    max-width: 360px;
+  }
+
+  .locais-item > div, .locais-item img{
+    text-align: center;
+    width: 360px;
+    margin: 0px;
+  }
+
+  .locais-item img{
+    margin-bottom: 10px;
+  }
+
+  .assine-container{
+    max-width: 360px;
+  }
+
+  .assine input, .assine form, .assine h2{
+    width: 360px;
+    margin: 0;
+  }
+
+  .footer-container{
+    max-width: 360px;
+  }
+
+  .footer img, .footer p{
+    float: none;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 980px){
+  .sobre-item{
+    width: 340px;
+  }
+
+  .sobre-container{
+    max-width: 720px;
+  }
+
+  .produtos-container{
+    max-width: 720px;
+  }
+
+  .produtos-item{
+    width: 220px;
+  }
+
+  .locais{
+    max-width: 720px;
+  }
+
+  .locais-item > div, .locais-item img{
+    max-width: 340px;
+  }
+
+  .assine-container{
+    max-width: 720px;
+  }
+
+  .assine-info{
+    width: 340px;
+  }
+
+  .assine form, .assine input{
+    width: 340px;
+  }
+
+
+}
