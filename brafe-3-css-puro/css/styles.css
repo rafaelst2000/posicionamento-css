@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #252525;
+  background-color: #e7e4d8;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Header */
+
+.header{
+  background-color: #d6d3c8;
+  padding: 20px;
+}
+
+.header::after, .header::before{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.header-logo{
+  float: left;
+}
+
+.header-menu ul{
+  float: right;
+}
+
+.header-menu li{
+  display: inline-block;
+}
+
+.header-menu li a{
+ color: #252525;
+ font-size: 1.125em;
+ padding: 0 10px;
+}
+
+.header-menu li:first-child a{
+  padding-left: 0;
+}
+
+/* Main */
+
+/* Side Nav */
+
+.side-nav{
+  width: 300px;
+  background: #252525;
+  float: left;
+}
+
+.side-nav li a{
+  display: block;
+  color: #fff;
+  border-bottom: 2px solid #484846;
+  font-size: 1.125em;
+  padding: 20px;
+}
+
+.side-nav li a::before{
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin-right: 15px;
+  top: 5px;
+  background-image: url(../img/icones.png);
+}
+
+.nav-contabilidade::before{
+  background-position: 0 0;
+}
+
+.nav-produtos::before{
+  background-position: 0 -24px;
+}
+
+.nav-paginas::before{
+  background-position: 0 -48px;
+}
+
+.nav-plugins::before{
+  background-position: 0 calc(-24px *3);
+}
+
+.nav-formularios::before{
+  background-position: 0 calc(-24px *4);
+}
+
+.nav-hospedagem::before{
+  background-position: 0 calc(-24px *5);
+}
